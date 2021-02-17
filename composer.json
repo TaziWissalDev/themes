@@ -1,6 +1,6 @@
 {
-    "name": "caffeinated/themes",
-    "description": "Laravel Themes",
+    "name": "Heisenberg00/themes",
+    "description": "Laravel Themes fork from caffeinated",
     "keywords": ["themes", "laravel", "caffeinated", "blade"],
     "license": "MIT",
     "authors": [
@@ -20,16 +20,16 @@
             "helpers/themes.php"
         ],
         "psr-4": {
-            "Caffeinated\\Themes\\": "src/"
+            "Heisenberg00\\Themes\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Caffeinated\\Themes\\ThemesServiceProvider"
+                "Heisenberg00\\Themes\\ThemesServiceProvider"
             ],
             "aliases": {
-                "Theme": "Caffeinated\\Themes\\Facades\\Theme"
+                "Theme": "Heisenberg00\\Themes\\Facades\\Theme"
             }
         }
     }
