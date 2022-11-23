@@ -1,5 +1,7 @@
 <?php
 
+use Caffeinated\Themes\Theme;
+
 if (! function_exists('theme_path')) {
     /**
      * Return the path to the given theme file.
@@ -10,6 +12,7 @@ if (! function_exists('theme_path')) {
      */
     function theme_path($file = '', $theme = null)
     {
-        return Theme::path($file, $theme);
+        $themeC = new Theme();
+        return $themeC->path($file, $theme);
     }
 }
